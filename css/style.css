@@ -316,3 +316,78 @@ nav p .text2 {
     font-weight: 100;
     text-overflow: ellipsis;
 }
+/* footer */
+footer {
+    background-color: #f7f7f7;
+}
+footer .container {
+    padding-top: 40px;
+}
+footer .container .footer-icon {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 ;
+}
+footer .container .footer-icon .icon {
+    flex-basis: 20%;
+    text-align: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+footer .container .footer-icon .icon span i {
+    font-size: 24px;
+}
+footer .container .footer-icon .icon .p1 {
+    font-weight: bold;
+    font-size: 14px;
+}
+footer .container .footer-icon .icon .p2 {
+    font-size: 13px;
+    color: #999999;
+}
+footer .container .option {
+    display: flex;
+    padding-top: 40px;
+
+}
+footer .container .option {
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .option .option-item {
+    flex-basis: 25%;
+    font-size: 14px;
+}
+footer .container .option .option-item ul  {
+    list-style: none;
+}
+footer .container .option .option-item ul h3 {
+    font-size: 14px;
+}
+footer .container .option .option-item ul li a {
+    font-size: 13px;
+    color: #666666;
+}
+footer .container .option .option-item QR {
+    display: flex;
+}
+footer .container .option .option-item QR img {
+    /* width: 80px;
+    height: 80px; */
+}
+footer .container .option .option-item .border-option-item .option-input {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+footer .container .option .option-item .border-option-item .option-input input {
+    width: 100%;
+    height: 100%;
+}
+footer .container .option .option-item .border-option-item .option-input i {
+ 
+}
