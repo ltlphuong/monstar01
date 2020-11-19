@@ -1,573 +1,748 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="/css/style.css" />
-        <script
-            src="https://kit.fontawesome.com/d06c5810b5.js"
-            crossorigin="anonymous"
-        ></script>
-    </head>
-    <body>
-        <!-- header -->
-        <header>
-            <div class="container">
-                <div class="header-logo">
-                    <a href="#">
-                        <img src="/images/logo.png" alt="logo" />
-                        <span>International Site</span>
-                    </a>
-                </div>
-                <!-- search -->
-                <div class="header-search">
-                    <input type="text" name="input" placeholder="converse" />
-                    <div class="item">
-                        <i class="fas fa-search"></i>
-                    </div>
-                </div>
-                <div class="header-information">
-                    <div class="infor-item">
-                        <i class="far fa-user"></i>
-                    </div>
-                    <div class="infor-item heart">
-                        <i class="far fa-heart"></i>
-                        <span>0</span>
-                    </div>
-                    <div class="infor-item bag">
-                        <i class="fas fa-shopping-bag"></i>
-                        <span>0</span>
-                    </div>
-                    <div class="infor-item">
-                        <i class="fas fa-headphones-alt"></i>
-                    </div>
-                    <div class="infor-item flagvietnam">
-                        <img src="/images/flagvietnam.png" alt="flagvietnam" />
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- nav -->
-        <nav>
-            <div class="container">
-                <div class="content">
-                    <ul>
-                        <li><a href="#"> Weekly Trend </a></li>
-                        <li><a href="#"> Men </a></li>
-                        <li><a href="#"> Women </a></li>
-                        <li><a href="#"> Shoes</a></li>
-                        <li><a href="#"> Bags </a></li>
-                        <li><a href="#"> Home & Garden </a></li>
-                        <li><a href="#"> Accessories & Beauty </a></li>
-                        <li><a href="#"> Jewelry & Watch </a></li>
-                        <li><a href="#"> Kid & Mom </a></li>
-                    </ul>
-                    <p>
-                        <span class="text1">Freeshipping over</span>
-                        <span class="text2">1.644.948₫</span>
-                    </p>
-                </div>
-            </div>
-        </nav>
-        <!-- infos  -->
-        <div class="infos">
-            <div class="info-item">
-                <a href="#">New Friend Exclusive 15% OFF ></a>
-            </div>
-            <div class="info-item">
-                <a href="#">Invite Friend - Cash Back ></a>
-            </div>
-            <div class="info-item">
-                <a href="#">Cash On Delivery ></a>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d06c5810b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="container padding-top-10 flex justify-content-space-between align-items-center"
+    >
+      <div class="header-logo flex align-items-flex-end">
+        <a href="#">
+          <img src="/images/logo.png" alt="logo" />
+          <span class="color-gray-2">International Site</span>
+        </a>
+      </div>
+      <!-- search -->
+      <div
+        class="header-search flex justify-content-space-between background-color-gray-0 border-radius-20"
+      >
+        <input
+          class="padding-10 border-radius-20 border-none outline-none background-color-gray-0"
+          type="text"
+          name="input"
+          placeholder="converse"
+        />
+        <div
+          class="item flex-center background-color-black border-radius-20 color-gray-f7"
+        >
+          <i class="fas fa-search font-size-20"></i>
         </div>
-        <!-- banner -->
-        <div class="banner"></div>
-        <!-- main -->
-        <main>
-            <div class="container">
-                <!-- new arrivals -->
-                <section class="new-arrivals">
-                    <div class="title">
-                        <i class="far fa-bookmark"></i>
-                        <a href="#">New Arrivals</a>
-                    </div>
-                    <div class="categories">
-                        <div class="category">
-                            <div class="photo">
-                                <div class="images">
-                                    <img
-                                        src="/images/category01.png"
-                                        alt="Category"
-                                    />
-                                </div>
-                                <a href="#">Men's Clothing</a>
-                            </div>
-                        </div>
-                        <div class="category">
-                            <div class="photo">
-                                <div class="images">
-                                    <img
-                                        src="/images/category07.png"
-                                        alt="Category"
-                                    />
-                                </div>
-                                <a href="#">Women's Clothing</a>
-                            </div>
-                        </div>
-                        <div class="category">
-                            <div class="photo">
-                                <div class="images">
-                                    <img
-                                        src="/images/category04.png"
-                                        alt="Category"
-                                    />
-                                </div>
-                                <a href="#">Plus Size</a>
-                            </div>
-                        </div>
-                        <div class="category">
-                            <div class="photo">
-                                <div class="images">
-                                    <img
-                                        src="/images/categoryshoes.png"
-                                        alt="Category"
-                                    />
-                                </div>
-                                <a href="#">Shoes Bagss</a>
-                            </div>
-                        </div>
-                        <div class="category">
-                            <div class="photo">
-                                <div class="images">
-                                    <img
-                                        src="/images/category05.png"
-                                        alt="Category"
-                                    />
-                                </div>
-                                <a href="#">Accessories & Home</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- flash-deals -->
-                <section class="flash-deals">
-                    <div class="heading">
-                        <div class="title">
-                            <i class="fas fa-shopping-bag"></i>
-                            <a href="#">Flash Deals</a>
-                        </div>
-                        <ul class="list">
-                            <li><a href="#">All</a></li>
-                            <li><a href="#">Shoes</a></li>
-                            <li><a href="#">Women</a></li>
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Bags</a></li>
-                        </ul>
-                        <div class="arrows">
-                            <div class="arrow-item">
-                                <i class="fas fa-chevron-left"></i>
-                            </div>
-                            <div class="arrow-item">
-                                <i class="fas fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-flash">
-                        <div class="content">
-                            <div class="content-01">FLASH DEALS</div>
-                            <div class="content-02">
-                                <p class="p1">DOWN TO</p>
-                                <p class="p2">$0.99</p>
-                            </div>
-                            <div class="time-left">
-                                <p>TIME LEFT</p>
-                                <ul>
-                                    <li class="time-item">
-                                        04<small>D</small>
-                                    </li>
-                                    <li>:</li>
-                                    <li class="time-item">
-                                        06<small>H</small>
-                                    </li>
-                                    <li>:</li>
-                                    <li class="time-item">
-                                        57<small>M</small>
-                                    </li>
-                                    <li>:</li>
-                                    <li class="time-item">
-                                        26<small>S</small>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="view-more">
-                                <button><a href="#">VIEW MORE ></a></button>
-                            </div>
-                        </div>
-                        <ul class="categories">
-                            <li>
-                                <div class="category-wrapper">
-                                    <img
-                                        src="/images/category08.jpg"
-                                        alt="category"
-                                    />
-                                    <a href="#" class="category-title"
-                                        >Solid Color Button T-shirt</a
-                                    >
-                                    <div class="category-price">
-                                        <span class="category-price-sale"
-                                            >405.000đ</span
-                                        >
-                                        <span class="category-price-original"
-                                            >500.000đ</span
-                                        >
-                                    </div>
-                                    <div class="sold">
-                                        Sold <span>223</span> pieces
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="category-wrapper">
-                                    <img
-                                        src="/images/category08.jpg"
-                                        alt="category"
-                                    />
-                                    <a href="#" class="category-title"
-                                        >Solid Color Button T-shirt</a
-                                    >
-                                    <div class="category-price">
-                                        <span class="category-price-sale"
-                                            >405.000đ</span
-                                        >
-                                        <span class="category-price-original"
-                                            >500.000đ</span
-                                        >
-                                    </div>
-                                    <div class="sold">
-                                        Sold <span>223</span> pieces
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="category-wrapper">
-                                    <img
-                                        src="/images/category08.jpg"
-                                        alt="category"
-                                    />
-                                    <a href="#" class="category-title"
-                                        >Solid Color Button T-shirt</a
-                                    >
-                                    <div class="category-price">
-                                        <span class="category-price-sale"
-                                            >405.000đ</span
-                                        >
-                                        <span class="category-price-original"
-                                            >500.000đ</span
-                                        >
-                                    </div>
-                                    <div class="sold">
-                                        Sold <span>223</span> pieces
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="category-wrapper">
-                                    <img
-                                        src="/images/category08.jpg"
-                                        alt="category"
-                                    />
-                                    <a href="#" class="category-title"
-                                        >Solid Color Button T-shirt</a
-                                    >
-                                    <div class="category-price">
-                                        <span class="category-price-sale"
-                                            >405.000đ</span
-                                        >
-                                        <span class="category-price-original"
-                                            >500.000đ</span
-                                        >
-                                    </div>
-                                    <div class="sold">
-                                        Sold <span>223</span> pieces
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <!-- what's hot -->
-                <section class="what-hot">
-                    <div class="heading">
-                        <div class="title">
-                            <i class="fas fa-fire"></i>
-                            <a href="#">What's Hot</a>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <div class="content-item">
-                            <div class="content-wrapper">
-                                <div class="content-title">
-                                    Most popular lists
-                                </div>
-                                <div class="content-body">
-                                    <ul class="content-tabs">
-                                        <li class="active">
-                                            <a href="#">Women</a>
-                                        </li>
-                                        <li><a href="#">Bags</a></li>
-                                        <li><a href="#">Shoes</a></li>
-                                        <li><a href="#">Men</a></li>
-                                    </ul>
-                                    <ul class="content-products">
-                                        <li>
-                                            <div class="product-wrapper">
-                                                <img
-                                                    src="/images/category01.jpg"
-                                                    alt="product"
-                                                />
-                                                <div class="product-number">
-                                                    1
-                                                </div>
-                                                <div class="product-content">
-                                                    <div class="product-title">
-                                                        Black Cat Print White
-                                                        Striped T-shirt
-                                                    </div>
-                                                    <div class="product-price">
-                                                        500.000đ
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="product-wrapper">
-                                                <img
-                                                    src="/images/category01.jpg"
-                                                    alt="product"
-                                                />
-                                                <div class="product-number">
-                                                    2
-                                                </div>
-                                                <div class="product-content">
-                                                    <div class="product-title">
-                                                        Black Cat Print White
-                                                        Striped T-shirt
-                                                    </div>
-                                                    <div class="product-price">
-                                                        500.000đ
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="product-wrapper">
-                                                <img
-                                                    src="/images/category01.jpg"
-                                                    alt="product"
-                                                />
-                                                <div class="product-number">
-                                                    3
-                                                </div>
-                                                <div class="product-content">
-                                                    <div class="product-title">
-                                                        Black Cat Print White
-                                                        Striped T-shirt
-                                                    </div>
-                                                    <div class="product-price">
-                                                        500.000đ
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="content-bottom">
-                                    <i class="fas fa-chevron-left"></i>
-                                    <span>
-                                        <span class="active">1</span>
-                                        <span>/</span>
-                                        <span>3</span>
-                                    </span>
-                                    <i class="fas fa-chevron-right"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-item">
-                            <div class="content-wrapper">
-                                <div class="content-heading">
-                                    <div class="content-title">HOT DEALS</div>
-                                    <a href="#" class="content-more">
-                                        More
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </div>
-                                <div class="content-body">
-                                    <img
-                                        src="/images/shipcod.jpg"
-                                        alt="ship cod"
-                                        class="image-shipcod"
-                                    />
-                                    <p class="ship-title">
-                                        COD & Free shipping
-                                    </p>
-                                    <div class="ship-desc">
-                                        COD & Free Shipping is available! Get
-                                        your 15% off voucher
-                                    </div>
-                                    <a href="#" class="see-more">See More</a>
-                                </div>
-                                <div class="content-bottom"></div>
-                            </div>
-                        </div>
-                        <div class="content-item">
-                            <div class="content-wrapper">
-                                <div class="content-heading">
-                                    <div class="content-title">Brands</div>
-                                    <a href="#" class="content-more">
-                                        More
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </div>
-                                <div class="content-body">
-                                    <img
-                                        src="/images/shipcod.jpg"
-                                        alt="ship cod"
-                                        class="image-shipcod"
-                                    />
-                                    <div class="albums">
-                                        <div>
-                                            <img
-                                                src="/images/category03.jpg"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div>
-                                            <img
-                                                src="/images/category01.jpg"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div>
-                                            <img
-                                                src="/images/category05.jpg"
-                                                alt=""
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content-bottom">
-                                    <i class="fas fa-chevron-left"></i>
-                                    <span>
-                                        <span class="active">1</span>
-                                        <span>/</span>
-                                        <span>3</span>
-                                    </span>
-                                    <i class="fas fa-chevron-right"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+      </div>
+      <div class="header-information flex align-items-center font-size-24">
+        <div class="infor-item">
+          <i class="far fa-user"></i>
+        </div>
+        <div class="infor-item heart flex align-items-center">
+          <i class="far fa-heart margin-right-5"></i>
+          <span class="font-size-13">0</span>
+        </div>
+        <div class="infor-item bag flex align-items-center">
+          <i class="fas fa-shopping-bag margin-right-5"></i>
+          <span
+            class="font-size-13 flex-center background-color-black color-white border-radius-18"
+            >0</span
+          >
+        </div>
+        <div class="infor-item">
+          <i class="fas fa-headphones-alt"></i>
+        </div>
+        <div class="infor-item flagvietnam">
+          <img src="/images/flagvietnam.png" alt="flagvietnam" />
+        </div>
+      </div>
+    </header>
+    <!-- nav -->
+    <nav class="container flex justify-content-space-between font-size-14">
+      <div
+        class="content flex justify-content-space-between align-items-center"
+      >
+        <ul class="flex list-style-none padding-0">
+          <li>
+            <a href="#"> Weekly Trend </a>
+          </li>
+          <li>
+            <a href="#"> Men </a>
+          </li>
+          <li>
+            <a href="#"> Women </a>
+          </li>
+          <li>
+            <a href="#"> Shoes</a>
+          </li>
+          <li>
+            <a href="#"> Bags </a>
+          </li>
+          <li>
+            <a href="#"> Home & Garden </a>
+          </li>
+          <li>
+            <a href="#"> Accessories & Beauty </a>
+          </li>
+          <li>
+            <a href="#"> Jewelry & Watch </a>
+          </li>
+          <li>
+            <a href="#"> Kid & Mom </a>
+          </li>
+        </ul>
+        <p class="flex flex-direction-column padding-0">
+          <span class="text1 font-size-12 margin-0">Freeshipping over</span>
+          <span class="text2 font-size-12 margin-0 color-red">1.644.948₫</span>
+        </p>
+      </div>
+    </nav>
+    <!-- infos  -->
+    <div class="infos flex justify-content-center">
+      <div class="info-item">
+        <a class="font-weight-bold font-size-18 color-brown-1" href="#"
+          >New Friend Exclusive 15% OFF ></a
+        >
+      </div>
+      <div class="info-item">
+        <a class="font-weight-bold font-size-18 color-brown-1" href="#"
+          >Invite Friend - Cash Back ></a
+        >
+      </div>
+      <div class="info-item">
+        <a class="font-weight-bold font-size-18 color-brown-1" href="#"
+          >Cash On Delivery ></a
+        >
+      </div>
+    </div>
+    <!-- banner -->
+    <div class="banner background-size-cover"></div>
+    <!-- main -->
+    <main>
+      <div class="container">
+        <!-- new arrivals -->
+        <section class="new-arrivals">
+          <div class="title font-weight-bold font-size-24">
+            <i class="far fa-bookmark"></i>
+            <a class="color-black" href="#">New Arrivals</a>
+          </div>
+          <div class="categories flex">
+            <div class="category padding-10">
+              <div class="photo background-color-white">
+                <div class="images background-color-gray-1 flex-center">
+                  <img src="/images/category04.png" alt="Category" />
+                </div>
+                <a
+                  class="color-gray-dimgrey font-weight-bold display-block text-align-center"
+                  href="#"
+                  >Men's Clothing</a
+                >
+              </div>
             </div>
-        </main>
-        <!-- footer -->
-        <footer>
-            <div class="container">
-                <div class="footer-icon">
-                    <div class="icon">
-                        <span> <i class="fas fa-suitcase-rolling"></i> </span>
-                        <p class="p1">High-quality Goods</p>
-                        <p class="p2">Enjoy top quality items for less</p>
-                    </div>
-                    <div class="icon">
-                        <span><i class="fas fa-headphones-alt"></i></span>
-                        <p class="p1">24/7 Livechat</p>
-                        <p class="p2">
-                            Get instant assistance whenever you need it
-                        </p>
-                    </div>
-                    <div class="icon">
-                        <span><i class="fas fa-shipping-fast"></i></span>
-                        <p class="p1">Express Shipping</p>
-                        <p class="p2">Fast & reliable delivery options</p>
-                    </div>
-                    <div class="icon">
-                        <span><i class="fas fa-money-check"></i></span>
-                        <p class="p1">Secure Payment</p>
-                        <p class="p2">Multiple safe payment methods</p>
-                    </div>
+            <div class="category padding-10">
+              <div class="photo background-color-white">
+                <div class="images background-color-gray-1 flex-center">
+                  <img src="/images/category04.png" alt="Category" />
                 </div>
-                <div class="options">
-                    <div class="options-left">
-                        <div class="option-left-item">
-                            <h3>COMPANY INFORMATION</h3>
-                            <ul>
-                                <li><a href="#">About Newchic</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Return Policy</a></li>
-                                <li><a href="#">Terms And Conditions</a></li>
-                                <li>
-                                    <a href="#">Intellectual Property Claims</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="option-left-item">
-                            <h3>CUSTOMER SERVICE</h3>
-                            <ul class="option-left-item">
-                                <li><a href="#">Track Order</a></li>
-                                <li><a href="#">Shipping FAQ</a></li>
-                                <li><a href="#">Order FAQ</a></li>
-                                <li><a href="#">Shipping Methods</a></li>
-                                <li><a href="#">Payment Methods</a></li>
-                            </ul>
-                        </div>
-                        <div class="option-left-item">
-                            <h3>COOPERATION</h3>
-                            <ul class="option-left-item">
-                                <li><a href="#">Blogger Program</a></li>
-                                <li><a href="#">Affiliate - Make Money</a></li>
-                                <li><a href="#">VIP Program</a></li>
-                                <li><a href="#">Dropship Program</a></li>
-                                <li><a href="#">Wholesale Program</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="options-right">
-                        <div class="footer-search">
-                            <input
-                                type="text"
-                                placeholder="Subscribe and get 15% off coupon"
-                            />
-                            <div class="icon">
-                                <i class="fas fa-chevron-right"></i>
-                            </div>
-                        </div>
-                        <div class="footer-socials">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-instagram-square"></i>
-                            <i class="fab fa-twitter-square"></i>
-                            <i class="fab fa-pinterest-square"></i>
-                            <i class="fab fa-youtube"></i>
-                            <i class="fab fa-blogger-b"></i>
-                        </div>
-                        <div class="footer-qrcode">
-                            <img src="/images/qr.png" alt="qr code" />
-                            <div class="content">
-                                Get a free gift and use
-                                <span>20% OFF</span> coupon now
-                            </div>
-                        </div>
-                    </div>
+                <a
+                  class="color-gray-dimgrey font-weight-bold display-block text-align-center"
+                  href="#"
+                  >Women's Clothing</a
+                >
+              </div>
+            </div>
+            <div class="category padding-10">
+              <div class="photo background-color-white">
+                <div class="images background-color-gray-1 flex-center">
+                  <img src="/images/category04.png" alt="Category" />
                 </div>
-                <div class="copyright">
-                    <img src="/images/pay.PNG" alt="pay" />
+                <a
+                  class="color-gray-dimgrey font-weight-bold display-block text-align-center"
+                  href="#"
+                  >Plus Size</a
+                >
+              </div>
+            </div>
+            <div class="category padding-10">
+              <div class="photo background-color-white text-align-center">
+                <div class="images background-color-gray-1 flex-center">
+                  <img src="/images/categoryshoes.png" alt="Category" />
+                </div>
+                <a
+                  class="color-gray-dimgrey font-weight-bold display-block text-align-center"
+                  href="#"
+                  >Shoes Bagss</a
+                >
+              </div>
+            </div>
+            <div class="category padding-10">
+              <div class="photo background-color-white text-align-center">
+                <div class="images background-color-gray-1 flex-center">
+                  <img src="/images/category05.png" alt="Category" />
+                </div>
+                <a
+                  class="color-gray-dimgrey font-weight-bold display-block text-align-center"
+                  href="#"
+                  >Accessories & Home</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- flash-deals -->
+        <section class="flash-deals">
+          <div
+            class="heading flex align-items-center margin-bottom-15px font-size-14"
+          >
+            <div class="title font-size-24 font-weight-bold">
+              <i class="fas fa-shopping-bag"></i>
+              <a class="color-rgb" href="#">Flash Deals</a>
+            </div>
+            <ul class="list flex flex">
+              <li>
+                <a href="#">All</a>
+              </li>
+              <li>
+                <a href="#">Shoes</a>
+              </li>
+              <li>
+                <a href="#">Women</a>
+              </li>
+              <li>
+                <a href="#">Men</a>
+              </li>
+              <li>
+                <a href="#">Bags</a>
+              </li>
+            </ul>
+            <div class="arrows flex">
+              <div class="arrow-item">
+                <i class="fas fa-chevron-left"></i>
+              </div>
+              <div class="arrow-item">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="category-flash padding-20-0 flex background-size-cover">
+            <div
+              class="content padding-0-20 text-align-center flex flex-direction-column justify-content-center"
+            >
+              <div class="content-01 color-black font-size-24 margin-5">
+                FLASH DEALS
+              </div>
+              <div class="content-02 color-brown-2 font-weight-bold margin-5">
+                <p class="p1 font-size-20">DOWN TO</p>
+                <p class="p2">$0.99</p>
+              </div>
+              <div class="time-left color-brown-3">
+                <p>TIME LEFT</p>
+                <ul class="flex-center">
+                  <li
+                    class="time-item color-gray-3 font-weight-bold margin-5 background-color-black padding-5"
+                  >
+                    04<small>D</small>
+                  </li>
+                  <li>:</li>
+                  <li
+                    class="time-item color-gray-3 font-weight-bold margin-5 background-color-black padding-5"
+                  >
+                    06<small>H</small>
+                  </li>
+                  <li>:</li>
+                  <li
+                    class="time-item color-gray-3 font-weight-bold margin-5 background-color-black padding-5"
+                  >
+                    57<small>M</small>
+                  </li>
+                  <li>:</li>
+                  <li
+                    class="time-item color-gray-3 font-weight-bold margin-5 background-color-black padding-5"
+                  >
+                    26<small>S</small>
+                  </li>
+                </ul>
+              </div>
+              <div class="view-more">
+                <button
+                  class="background-color-white color-brown-3 border-none"
+                >
+                  <a href="#">VIEW MORE ></a>
+                </button>
+              </div>
+            </div>
+            <ul class="categories flex">
+              <li class="padding-5">
+                <div
+                  class="category-wrapper height-100 text-align-center background-color-white"
+                >
+                  <img
+                    class="width-100 padding-10"
+                    src="/images/category08.jpg"
+                    alt="category"
+                  />
+                  <a
+                    href="#"
+                    class="category-title color-black font-size-14 padding-5"
+                    >Solid Color Button T-shirt</a
+                  >
+                  <div class="category-price">
+                    <span
+                      class="category-price-sale font-weight-600 color-pink font-size-16 display-inline-block padding-5"
+                      >405.000đ</span
+                    >
+                    <span class="category-price-original color-gray-3"
+                      >500.000đ</span
+                    >
+                  </div>
+                  <div
+                    class="sold padding-2 display-inline-block background-color-gray-1 border-radius-10 padding-"
+                  >
+                    Sold <span class="color-pink">223</span> pieces
+                  </div>
+                </div>
+              </li>
+              <li class="padding-5">
+                <div
+                  class="category-wrapper height-100 text-align-center background-color-white"
+                >
+                  <img
+                    class="width-100 padding-10"
+                    src="/images/category08.jpg"
+                    alt="category"
+                  />
+                  <a
+                    href="#"
+                    class="category-title color-black font-size-14 padding-5"
+                    >Solid Color Button T-shirt</a
+                  >
+                  <div class="category-price">
+                    <span
+                      class="category-price-sale font-weight-600 color-pink font-size-16 display-inline-block padding-5"
+                      >405.000đ</span
+                    >
+                    <span class="category-price-original color-gray-3"
+                      >500.000đ</span
+                    >
+                  </div>
+                  <div
+                    class="sold padding-2 background-color-gray-1 display-inline-block border-radius-10"
+                  >
+                    Sold <span class="color-pink">223</span> pieces
+                  </div>
+                </div>
+              </li>
+              <li class="padding-5">
+                <div
+                  class="category-wrapper height-100 text-align-center background-color-white"
+                >
+                  <img
+                    class="width-100 padding-10"
+                    src="/images/category08.jpg"
+                    alt="category"
+                  />
+                  <a
+                    href="#"
+                    class="category-title color-black font-size-14 padding-5"
+                    >Solid Color Button T-shirt</a
+                  >
+                  <div class="category-price">
+                    <span
+                      class="category-price-sale font-weight-600 color-pink font-size-16 display-inline-block padding-5"
+                      >405.000đ</span
+                    >
+                    <span class="category-price-original color-gray-3"
+                      >500.000đ</span
+                    >
+                  </div>
+                  <div
+                    class="sold padding-2 display-inline-block background-color-gray-1 border-radius-10"
+                  >
+                    Sold <span class="color-pink">223</span> pieces
+                  </div>
+                </div>
+              </li>
+              <li class="padding-5">
+                <div
+                  class="category-wrapper height-100 text-align-center background-color-white"
+                >
+                  <img
+                    class="padding-10 width-100"
+                    src="/images/category08.jpg"
+                    alt="category"
+                  />
+                  <a
+                    href="#"
+                    class="category-title color-black font-size-14 display-inline-block padding-5"
+                    >Solid Color Button T-shirt</a
+                  >
+                  <div class="category-price">
+                    <span
+                      class="category-price-sale font-weight-600 color-pink font-size-16 display-inline-block padding-5"
+                      >405.000đ</span
+                    >
+                    <span class="category-price-original color-gray-3"
+                      >500.000đ</span
+                    >
+                  </div>
+                  <div
+                    class="sold padding-2 background-color-gray-1 display-inline-block border-radius-10"
+                  >
+                    Sold <span class="color-pink">223</span> pieces
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="what-hot">
+          <div class="heading">
+            <div class="title font-size-24 font-weight-bold">
+              <i class="fas fa-fire"></i>
+              <a class="color-black" href="#">What's Hot</a>
+            </div>
+          </div>
+          <div class="content background-color-gray-3 flex">
+            <div class="content-item">
+              <div
+                class="content-wrapper background-color-white flex flex-direction-column height-100"
+              >
+                <div class="content-title font-size-18">Most popular lists</div>
+                <div class="content-body flex-grow-1">
+                  <ul
+                    class="content-tabs background-color-gray-4 flex justify-content-space-between"
+                  >
+                    <li class="active">
+                      <a href="#">Women</a>
+                    </li>
+                    <li>
+                      <a href="#">Bags</a>
+                    </li>
+                    <li>
+                      <a href="#">Shoes</a>
+                    </li>
+                    <li>
+                      <a href="#">Men</a>
+                    </li>
+                  </ul>
+                  <ul class="content-products">
+                    <li>
+                      <div
+                        class="product-wrapper padding-20 flex align-items-center"
+                      >
+                        <img src="/images/category01.jpg" alt="product" />
+                        <div
+                          class="product-number font-size-32 color-pink font-weight-bold padding-20"
+                        >
+                          1
+                        </div>
+                        <div class="product-content color-gray-4">
+                          <div class="product-title font-size-14">
+                            Black Cat Print White Striped T-shirt
+                          </div>
+                          <div
+                            class="product-price font-size-16 font-weight-bold"
+                          >
+                            500.000đ
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="product-wrapper padding-20 flex align-items-center"
+                      >
+                        <img src="/images/category01.jpg" alt="product" />
+                        <div
+                          class="product-number font-size-32 color-pink font-weight-bold padding-20"
+                        >
+                          2
+                        </div>
+                        <div class="product-content color-gray-4">
+                          <div class="product-title font-size-14">
+                            Black Cat Print White Striped T-shirt
+                          </div>
+                          <div
+                            class="product-price font-size-16 font-weight-bold"
+                          >
+                            500.000đ
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="product-wrapper padding-20 flex align-items-center"
+                      >
+                        <img src="/images/category01.jpg" alt="product" />
+                        <div
+                          class="product-number font-size-32 color-pink font-weight-bold padding-20"
+                        >
+                          3
+                        </div>
+                        <div class="product-content color-gray-4">
+                          <div class="product-title font-size-14">
+                            Black Cat Print White Striped T-shirt
+                          </div>
+                          <div class="product-price">500.000đ</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="content-bottom text-align-center">
+                  <i class="fas fa-chevron-left"></i>
+                  <span>
+                    <span class="active color-pink">1</span>
+                    <span>/</span>
+                    <span>3</span>
+                  </span>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="content-item text-align-center">
+              <div
+                class="content-wrapper background-color-white height-100 flex flex-direction-column"
+              >
+                <div
+                  class="content-heading flex align-items-center justify-content-space-between"
+                >
+                  <div class="content-title font-size-18">HOT DEALS</div>
+                  <a
+                    href="#"
+                    class="content-more font-weight-bold color-gray-2"
+                  >
+                    More
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
+                </div>
+                <div class="content-body flex-grow-1">
+                  <img
+                    src="/images/shipcod.jpg"
+                    alt="ship cod"
+                    class="image-shipcod width-100"
+                  />
+                  <p class="ship-title color-gray-4 font-size-16">
+                    COD & Free shipping
+                  </p>
+                  <div class="ship-desc color-gray-2 font-size-14 padding-0-20">
+                    COD & Free Shipping is available! Get your 15% off voucher
+                  </div>
+                  <a
+                    href="#"
+                    class="see-more color-white border-radius-20 background-color-red"
+                    >See More</a
+                  >
+                </div>
+                <div class="content-bottom text-align-center"></div>
+              </div>
+            </div>
+            <div class="content-item">
+              <div
+                class="content-wrapper background-color-white height-100 flex-direction-column flex"
+              >
+                <div
+                  class="content-heading flex justify-content-space-between align-items-center"
+                >
+                  <div class="content-title font-size-18">Brands</div>
+                  <a
+                    href="#"
+                    class="content-more font-weight-bold color-gray-2"
+                  >
+                    More
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
+                </div>
+                <div class="content-body flex-grow-1">
+                  <img
+                    src="/images/shipcod.jpg"
+                    alt="ship cod"
+                    class="image-shipcod width-100"
+                  />
+                  <div class="albums flex padding-top-20">
                     <div>
-                        Copyright © 2014-2020 Newchic.com All Rights Reserved.
+                      <img
+                        class="width-100"
+                        src="/images/category03.jpg"
+                        alt=""
+                      />
                     </div>
+                    <div>
+                      <img
+                        class="width-100"
+                        src="/images/category01.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <img
+                        class="width-100"
+                        src="/images/category05.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
                 </div>
+                <div class="text-align-center padding-20-0">
+                  <i class="fas fa-chevron-left"></i>
+                  <span>
+                    <span class="active color-pink">1</span>
+                    <span>/</span>
+                    <span>3</span>
+                  </span>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
             </div>
-        </footer>
-    </body>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="background-color-gray-0 padding-top-40">
+      <div class="container">
+        <div
+          class="footer-icon background-color-white text-align-center flex-center"
+        >
+          <div class="icon">
+            <span> <i class="fas fa-suitcase-rolling font-size-24"></i> </span>
+            <p class="p1 font-weight-bold font-size-14">High-quality Goods</p>
+            <p class="p2 font-size-13 color-gray-2">
+              Enjoy top quality items for less
+            </p>
+          </div>
+          <div class="icon">
+            <span><i class="fas fa-headphones-alt font-size-24"></i></span>
+            <p class="p1 font-weight-bold font-size-14">24/7 Livechat</p>
+            <p class="p2 font-size-13 color-gray-2">
+              Get instant assistance whenever you need it
+            </p>
+          </div>
+          <div class="icon">
+            <span><i class="fas fa-shipping-fast font-size-24"></i></span>
+            <p class="p1 font-weight-bold font-size-14">Express Shipping</p>
+            <p class="p2 font-size-13 color-gray-2">
+              Fast & reliable delivery options
+            </p>
+          </div>
+          <div class="icon">
+            <span><i class="fas fa-money-check font-size-24"></i></span>
+            <p class="p1 font-weight-bold font-size-14">Secure Payment</p>
+            <p class="p2 font-size-13 color-gray-2">
+              Multiple safe payment methods
+            </p>
+          </div>
+        </div>
+        <div class="options flex padding-top-40">
+          <div class="options-left flex">
+            <div class="option-left-item">
+              <h3 class="font-size-14 color-gray-4">COMPANY INFORMATION</h3>
+              <ul>
+                <li>
+                  <a href="#">About Newchic</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">Return Policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms And Conditions</a>
+                </li>
+                <li>
+                  <a href="#">Intellectual Property Claims</a>
+                </li>
+              </ul>
+            </div>
+            <div class="option-left-item">
+              <h3 class="font-size-14 color-gray-4">CUSTOMER SERVICE</h3>
+              <ul>
+                <li>
+                  <a href="#">Track Order</a>
+                </li>
+                <li>
+                  <a href="#">Shipping FAQ</a>
+                </li>
+                <li>
+                  <a href="#">Order FAQ</a>
+                </li>
+                <li>
+                  <a href="#">Shipping Methods</a>
+                </li>
+                <li>
+                  <a href="#">Payment Methods</a>
+                </li>
+              </ul>
+            </div>
+            <div class="option-left-item">
+              <h3 class="font-size-14 color-gray-4">COOPERATION</h3>
+              <ul>
+                <li>
+                  <a href="#">Blogger Program</a>
+                </li>
+                <li>
+                  <a href="#">Affiliate - Make Money</a>
+                </li>
+                <li>
+                  <a href="#">VIP Program</a>
+                </li>
+                <li>
+                  <a href="#">Dropship Program</a>
+                </li>
+                <li>
+                  <a href="#">Wholesale Program</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="options-right flex-grow-1">
+            <div
+              class="footer-search background-color-white flex align-items-center justify-content-space-between"
+            >
+              <input
+                class="background-color-transparent flex-grow-1 border-none"
+                type="text"
+                placeholder="Subscribe and get 15% off coupon"
+              />
+              <div
+                class="icon background-color-black color-white text-align-center"
+              >
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+            <div class="footer-socials flex">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fab fa-pinterest-square"></i>
+              <i class="fab fa-youtube"></i>
+              <i class="fab fa-blogger-b"></i>
+            </div>
+            <div class="footer-qrcode flex align-items-center">
+              <img src="/images/qr.png" alt="qr code" />
+              <div class="content font-size-14 font-weight-600">
+                Get a free gift and use
+                <span class="color-pink">20% OFF</span> coupon now
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright color-gray-2 text-align-center">
+          <img src="/images/pay.PNG" alt="pay" />
+          <div>Copyright © 2014-2020 Newchic.com All Rights Reserved.</div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
