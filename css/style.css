@@ -3,14 +3,12 @@ body {
   font-size: 13px;
   font-family: Poppins, "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
+  line-height: 1.5;
 }
 * {
   box-sizing: border-box;
 }
 input,
-button {
-  font-family: inherit;
-}
 a {
   text-decoration: none;
   display: inline-block;
@@ -20,11 +18,15 @@ ul {
   margin: 0;
   list-style: none;
 }
+p {
+  margin: 0px;
+}
 /* module css */
 .container {
-  width: 1130px;
+  max-width: 1130px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 .flex {
   display: flex;
@@ -66,6 +68,9 @@ ul {
 }
 .width-100 {
   width: 100%;
+}
+.width-20 {
+  width: 20px;
 }
 .background-color-black {
   background-color: black;
@@ -181,6 +186,9 @@ ul {
 .padding-top-20 {
   padding-top: 20px;
 }
+.padding-right-5 {
+  padding-right: 5px;
+}
 .padding-top-40 {
   padding-top: 40px;
 }
@@ -190,8 +198,8 @@ ul {
 .margin-bottom-15px {
   margin-bottom: 15px;
 }
-.list-style-none {
-  list-style: none;
+.margin-bottom-5px {
+  margin-bottom: 5px;
 }
 .display-inline-block {
   display: inline-block;
@@ -235,6 +243,9 @@ ul {
 .background-size-cover {
   background-size: cover;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 /* header */
 .header-information .infor-item {
   padding: 15px;
@@ -243,15 +254,31 @@ ul {
   width: 18px;
   height: 18px;
 }
-.header-information .flagvietnam img {
-  width: 20px;
+.header-information .infor-item-user {
+  position: relative;
+}
+.header-information .infor-item-user .hover {
+  position: absolute;
+  background-color: #fff;
+  display: none;
+  width: 250px;
+  height: 195px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header-information .infor-item-user:hover .hover {
+  top: 50px;
+  display: block;
 }
 .header-search {
   width: 300px;
   height: 36px;
+  overflow: hidden;
 }
 .header-search input::placeholder {
   color: #d6d6d6;
+  font-family: inherit;
 }
 .header-search .item {
   width: 56px;
@@ -276,7 +303,7 @@ nav p {
 }
 /* infos */
 .infos {
-  background-image: url(/images/backgroundads.jpg);
+  background-image: url(../images/backgroundads.jpg);
 }
 .infos .info-item {
   border-right: 1px solid #000;
@@ -288,7 +315,7 @@ nav p {
 }
 /* banner */
 .banner {
-  background: url(/images/background.jpg) no-repeat center;
+  background: url(../images/background.jpg) no-repeat center;
   height: 500px;
   margin-bottom: 50px;
 }
@@ -297,8 +324,8 @@ nav p {
   flex-basis: 20%;
 }
 .new-arrivals .categories .category .photo .images {
-  width: 200px;
-  height: 200px;
+  /* width: 200px;
+  height: 200px; */
   border-radius: 50%;
   /* overflow đọc lại  */
   overflow: hidden;
@@ -328,6 +355,9 @@ nav p {
 .flash-deals .list {
   padding-left: 20px;
 }
+.flash-deals .view-more a {
+  font-family: inherit;
+}
 .flash-deals .list li {
   margin: 8px 9px;
   padding: 5px 12px;
@@ -345,7 +375,7 @@ nav p {
 }
 /* flash deals - category-fash */
 .category-flash {
-  background: url(/images/backgroundflash.jpg) no-repeat;
+  background: url(../images/backgroundflash.jpg) no-repeat;
   min-height: 440px;
 }
 .category-flash .content {
@@ -398,7 +428,6 @@ nav p {
 }
 .what-hot .content .content-item .content-wrapper .content-title {
   padding: 15px 10px;
-  font-weight: 700;
 }
 .what-hot .content .content-item .content-wrapper .content-more {
   padding-right: 10px;

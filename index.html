@@ -4,13 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/d06c5810b5.js"
       crossorigin="anonymous"
@@ -21,12 +19,10 @@
     <header
       class="container padding-top-10 flex justify-content-space-between align-items-center"
     >
-      <div class="header-logo flex align-items-flex-end">
-        <a href="#">
-          <img src="/images/logo.png" alt="logo" />
-          <span class="color-gray-2">International Site</span>
-        </a>
-      </div>
+      <a href="#" class="flex align-items-flex-end">
+        <img src="images/logo.png" alt="logo" class="margin-right-5" />
+        <span class="color-gray-2">International Site</span>
+      </a>
       <!-- search -->
       <div
         class="header-search flex justify-content-space-between background-color-gray-0 border-radius-20"
@@ -40,38 +36,80 @@
         <div
           class="item flex-center background-color-black border-radius-20 color-gray-f7"
         >
-          <i class="fas fa-search font-size-20"></i>
+          <i class="fas fa-search font-size-20 cursor-pointer"></i>
         </div>
       </div>
       <div class="header-information flex align-items-center font-size-24">
-        <div class="infor-item">
-          <i class="far fa-user"></i>
+        <div class="infor-item-user flex align-items-center">
+          <i class="far fa-user padding-20 cursor-pointer"></i>
+          <div class="hover font-size-13 padding-20">
+            <div class="font-weight-bold margin-bottom-5px">
+              Welcome to Newchic
+            </div>
+            <div class="color-gray-4 margin-bottom-15px">
+              <span class="color-pink">15% OFF</span> For New Users
+            </div>
+            <a
+              class="background-color-black text-align-center display-block color-white padding-5 margin-bottom-5px"
+              href="#"
+              >Sign in/ Register</a
+            >
+            <div class="text-align-center color-gray-2 margin-bottom-15px">
+              Or sign in :
+            </div>
+            <ul class="flex margin-bottom-5px justify-content-space-between">
+              <li
+                class="background-color-gray-2 margin-right-5 flex-center padding-5 cursor-pointer"
+              >
+                <img
+                  class="width-20 padding-right-5"
+                  src="images/ggchrom.png"
+                  alt="ggchrom"
+                />
+                <span>GOOGLE</span>
+              </li>
+              <li
+                class="background-color-gray-2 margin-right-5 flex-center padding-5 cursor-pointer"
+              >
+                <img
+                  class="width-20 padding-right-5"
+                  src="images/fb.png"
+                  alt="fb"
+                />
+                <span>FACEBOOK</span>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="infor-item heart flex align-items-center">
-          <i class="far fa-heart margin-right-5"></i>
-          <span class="font-size-13">0</span>
+        <div class="infor-item-heart flex align-items-center padding-20">
+          <i class="far fa-heart cursor-pointer padding-5"></i>
+          <span class="font-size-13 cursor-pointer">0</span>
         </div>
-        <div class="infor-item bag flex align-items-center">
-          <i class="fas fa-shopping-bag margin-right-5"></i>
+        <div class="infor-item bag flex align-items-center padding-20">
+          <i class="fas fa-shopping-bag padding-5 cursor-pointer"></i>
           <span
-            class="font-size-13 flex-center background-color-black color-white border-radius-18"
+            class="font-size-13 flex-center background-color-black color-white border-radius-18 cursor-pointer"
             >0</span
           >
         </div>
         <div class="infor-item">
-          <i class="fas fa-headphones-alt"></i>
+          <i class="fas fa-headphones-alt padding-20 cursor-pointer"></i>
         </div>
-        <div class="infor-item flagvietnam">
-          <img src="/images/flagvietnam.png" alt="flagvietnam" />
+        <div class="infor-item flagVietNam padding-20">
+          <img
+            class="width-20 cursor-pointer"
+            src="images/flagvietnam.png"
+            alt="flagvietnam"
+          />
         </div>
       </div>
     </header>
     <!-- nav -->
-    <nav class="container flex justify-content-space-between font-size-14">
+    <nav class="container font-size-14">
       <div
         class="content flex justify-content-space-between align-items-center"
       >
-        <ul class="flex list-style-none padding-0">
+        <ul class="flex">
           <li>
             <a href="#"> Weekly Trend </a>
           </li>
@@ -100,28 +138,22 @@
             <a href="#"> Kid & Mom </a>
           </li>
         </ul>
-        <p class="flex flex-direction-column padding-0">
-          <span class="text1 font-size-12 margin-0">Freeshipping over</span>
-          <span class="text2 font-size-12 margin-0 color-red">1.644.948₫</span>
+        <p class="flex flex-direction-column font-size-12">
+          <span>Freeshipping over</span>
+          <span class="color-red">1.644.948₫</span>
         </p>
       </div>
     </nav>
     <!-- infos  -->
-    <div class="infos flex justify-content-center">
+    <div class="infos flex justify-content-center font-weight-600 font-size-18">
       <div class="info-item">
-        <a class="font-weight-bold font-size-18 color-brown-1" href="#"
-          >New Friend Exclusive 15% OFF ></a
-        >
+        <a class="color-brown-1" href="#">New Friend Exclusive 15% OFF ></a>
       </div>
       <div class="info-item">
-        <a class="font-weight-bold font-size-18 color-brown-1" href="#"
-          >Invite Friend - Cash Back ></a
-        >
+        <a class="color-brown-1" href="#">Invite Friend - Cash Back ></a>
       </div>
       <div class="info-item">
-        <a class="font-weight-bold font-size-18 color-brown-1" href="#"
-          >Cash On Delivery ></a
-        >
+        <a class="color-brown-1" href="#">Cash On Delivery ></a>
       </div>
     </div>
     <!-- banner -->
@@ -131,7 +163,7 @@
       <div class="container">
         <!-- new arrivals -->
         <section class="new-arrivals">
-          <div class="title font-weight-bold font-size-24">
+          <div class="font-weight-bold font-size-24">
             <i class="far fa-bookmark"></i>
             <a class="color-black" href="#">New Arrivals</a>
           </div>
@@ -139,7 +171,7 @@
             <div class="category padding-10">
               <div class="photo background-color-white">
                 <div class="images background-color-gray-1 flex-center">
-                  <img src="/images/category04.png" alt="Category" />
+                  <img src="images/category04.png" alt="Category" />
                 </div>
                 <a
                   class="color-gray-dimgrey font-weight-bold display-block text-align-center"
@@ -151,7 +183,7 @@
             <div class="category padding-10">
               <div class="photo background-color-white">
                 <div class="images background-color-gray-1 flex-center">
-                  <img src="/images/category04.png" alt="Category" />
+                  <img src="images/category04.png" alt="Category" />
                 </div>
                 <a
                   class="color-gray-dimgrey font-weight-bold display-block text-align-center"
@@ -163,7 +195,7 @@
             <div class="category padding-10">
               <div class="photo background-color-white">
                 <div class="images background-color-gray-1 flex-center">
-                  <img src="/images/category04.png" alt="Category" />
+                  <img src="images/category04.png" alt="Category" />
                 </div>
                 <a
                   class="color-gray-dimgrey font-weight-bold display-block text-align-center"
@@ -175,7 +207,7 @@
             <div class="category padding-10">
               <div class="photo background-color-white text-align-center">
                 <div class="images background-color-gray-1 flex-center">
-                  <img src="/images/categoryshoes.png" alt="Category" />
+                  <img src="images/categoryshoes.png" alt="Category" />
                 </div>
                 <a
                   class="color-gray-dimgrey font-weight-bold display-block text-align-center"
@@ -187,7 +219,7 @@
             <div class="category padding-10">
               <div class="photo background-color-white text-align-center">
                 <div class="images background-color-gray-1 flex-center">
-                  <img src="/images/category05.png" alt="Category" />
+                  <img src="images/category05.png" alt="Category" />
                 </div>
                 <a
                   class="color-gray-dimgrey font-weight-bold display-block text-align-center"
@@ -200,14 +232,12 @@
         </section>
         <!-- flash-deals -->
         <section class="flash-deals">
-          <div
-            class="heading flex align-items-center margin-bottom-15px font-size-14"
-          >
+          <div class="flex align-items-center margin-bottom-15px font-size-14">
             <div class="title font-size-24 font-weight-bold">
               <i class="fas fa-shopping-bag"></i>
-              <a class="color-rgb" href="#">Flash Deals</a>
+              <a class="color-black" href="#">Flash Deals</a>
             </div>
-            <ul class="list flex flex">
+            <ul class="list flex">
               <li>
                 <a href="#">All</a>
               </li>
@@ -272,12 +302,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="view-more">
-                <button
-                  class="background-color-white color-brown-3 border-none"
-                >
-                  <a href="#">VIEW MORE ></a>
-                </button>
+              <div
+                class="view-more background-color-white border-none margin-5"
+              >
+                <a class="color-brown-3" href="#">VIEW MORE></a>
               </div>
             </div>
             <ul class="categories flex">
@@ -287,7 +315,7 @@
                 >
                   <img
                     class="width-100 padding-10"
-                    src="/images/category08.jpg"
+                    src="images/category08.jpg"
                     alt="category"
                   />
                   <a
@@ -305,7 +333,7 @@
                     >
                   </div>
                   <div
-                    class="sold padding-2 display-inline-block background-color-gray-1 border-radius-10 padding-"
+                    class="sold padding-2 display-inline-block background-color-gray-1 border-radius-10"
                   >
                     Sold <span class="color-pink">223</span> pieces
                   </div>
@@ -317,7 +345,7 @@
                 >
                   <img
                     class="width-100 padding-10"
-                    src="/images/category08.jpg"
+                    src="images/category08.jpg"
                     alt="category"
                   />
                   <a
@@ -347,7 +375,7 @@
                 >
                   <img
                     class="width-100 padding-10"
-                    src="/images/category08.jpg"
+                    src="images/category08.jpg"
                     alt="category"
                   />
                   <a
@@ -377,7 +405,7 @@
                 >
                   <img
                     class="padding-10 width-100"
-                    src="/images/category08.jpg"
+                    src="images/category08.jpg"
                     alt="category"
                   />
                   <a
@@ -404,11 +432,12 @@
             </ul>
           </div>
         </section>
+        <!-- what hot -->
         <section class="what-hot">
           <div class="heading">
             <div class="title font-size-24 font-weight-bold">
               <i class="fas fa-fire"></i>
-              <a class="color-black" href="#">What's Hot</a>
+              <a class="color-black padding-top-20" href="#">What's Hot</a>
             </div>
           </div>
           <div class="content background-color-gray-3 flex">
@@ -416,7 +445,9 @@
               <div
                 class="content-wrapper background-color-white flex flex-direction-column height-100"
               >
-                <div class="content-title font-size-18">Most popular lists</div>
+                <div class="content-title font-size-18 font-weight-bold">
+                  Most popular lists
+                </div>
                 <div class="content-body flex-grow-1">
                   <ul
                     class="content-tabs background-color-gray-4 flex justify-content-space-between"
@@ -439,7 +470,7 @@
                       <div
                         class="product-wrapper padding-20 flex align-items-center"
                       >
-                        <img src="/images/category01.jpg" alt="product" />
+                        <img src="images/category01.jpg" alt="product" />
                         <div
                           class="product-number font-size-32 color-pink font-weight-bold padding-20"
                         >
@@ -461,7 +492,7 @@
                       <div
                         class="product-wrapper padding-20 flex align-items-center"
                       >
-                        <img src="/images/category01.jpg" alt="product" />
+                        <img src="images/category01.jpg" alt="product" />
                         <div
                           class="product-number font-size-32 color-pink font-weight-bold padding-20"
                         >
@@ -483,7 +514,7 @@
                       <div
                         class="product-wrapper padding-20 flex align-items-center"
                       >
-                        <img src="/images/category01.jpg" alt="product" />
+                        <img src="images/category01.jpg" alt="product" />
                         <div
                           class="product-number font-size-32 color-pink font-weight-bold padding-20"
                         >
@@ -517,7 +548,9 @@
                 <div
                   class="content-heading flex align-items-center justify-content-space-between"
                 >
-                  <div class="content-title font-size-18">HOT DEALS</div>
+                  <div class="content-title font-size-18 font-weight-bold">
+                    HOT DEALS
+                  </div>
                   <a
                     href="#"
                     class="content-more font-weight-bold color-gray-2"
@@ -528,7 +561,7 @@
                 </div>
                 <div class="content-body flex-grow-1">
                   <img
-                    src="/images/shipcod.jpg"
+                    src="images/shipcod.jpg"
                     alt="ship cod"
                     class="image-shipcod width-100"
                   />
@@ -554,7 +587,9 @@
                 <div
                   class="content-heading flex justify-content-space-between align-items-center"
                 >
-                  <div class="content-title font-size-18">Brands</div>
+                  <div class="content-title font-size-18 font-weight-bold">
+                    Brands
+                  </div>
                   <a
                     href="#"
                     class="content-more font-weight-bold color-gray-2"
@@ -565,7 +600,7 @@
                 </div>
                 <div class="content-body flex-grow-1">
                   <img
-                    src="/images/shipcod.jpg"
+                    src="images/shipcod.jpg"
                     alt="ship cod"
                     class="image-shipcod width-100"
                   />
@@ -573,21 +608,21 @@
                     <div>
                       <img
                         class="width-100"
-                        src="/images/category03.jpg"
+                        src="images/category03.jpg"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
                         class="width-100"
-                        src="/images/category01.jpg"
+                        src="images/category01.jpg"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
                         class="width-100"
-                        src="/images/category05.jpg"
+                        src="images/category05.jpg"
                         alt=""
                       />
                     </div>
@@ -730,7 +765,7 @@
               <i class="fab fa-blogger-b"></i>
             </div>
             <div class="footer-qrcode flex align-items-center">
-              <img src="/images/qr.png" alt="qr code" />
+              <img src="images/qr.png" alt="qr code" />
               <div class="content font-size-14 font-weight-600">
                 Get a free gift and use
                 <span class="color-pink">20% OFF</span> coupon now
@@ -739,7 +774,7 @@
           </div>
         </div>
         <div class="copyright color-gray-2 text-align-center">
-          <img src="/images/pay.PNG" alt="pay" />
+          <img src="images/pay.PNG" alt="pay" />
           <div>Copyright © 2014-2020 Newchic.com All Rights Reserved.</div>
         </div>
       </div>
