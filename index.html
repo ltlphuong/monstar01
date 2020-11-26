@@ -19,7 +19,8 @@
     <header
       class="container padding-top-10 flex justify-content-space-between align-items-center"
     >
-      <a href="#" class="flex align-items-flex-end">
+      <div class="icon-list cursor-pointer" onclick="openNav()"><i class="fas fa-list"></i></div>
+      <a href="#" class="logo flex align-items-flex-end">
         <img src="images/logo.png" alt="logo" class="margin-right-5" />
         <span class="color-gray-2">International Site</span>
       </a>
@@ -62,7 +63,7 @@
                 class="background-color-gray-2 margin-right-5 flex-center padding-5 cursor-pointer"
               >
                 <img
-                  class="width-20 padding-right-5"
+                  class="width-20px padding-right-5"
                   src="images/ggchrom.png"
                   alt="ggchrom"
                 />
@@ -72,7 +73,7 @@
                 class="background-color-gray-2 margin-right-5 flex-center padding-5 cursor-pointer"
               >
                 <img
-                  class="width-20 padding-right-5"
+                  class="width-20px padding-right-5"
                   src="images/fb.png"
                   alt="fb"
                 />
@@ -95,11 +96,11 @@
         <div class="infor-item">
           <i class="fas fa-headphones-alt padding-20 cursor-pointer"></i>
         </div>
-        <div class="infor-item flagVietNam padding-20">
+        <div class="infor-item flag padding-20">
           <img
-            class="width-20 cursor-pointer"
+            class="width-20px cursor-pointer"
             src="images/flagvietnam.png"
-            alt="flagvietnam"
+            alt="flag"
           />
         </div>
       </div>
@@ -107,8 +108,9 @@
     <!-- nav -->
     <nav class="container font-size-14">
       <div
-        class="content flex justify-content-space-between align-items-center"
+        class="content flex justify-content-space-between align-items-center" id="mySidenav"
       >
+      <a class="cancel" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul class="flex">
           <li>
             <a href="#"> Weekly Trend </a>
@@ -168,6 +170,18 @@
             <a class="color-black" href="#">New Arrivals</a>
           </div>
           <div class="categories flex">
+            <div class="category padding-10">
+              <div class="photo background-color-white">
+                <div class="images background-color-gray-1 flex-center">
+                  <img src="images/category04.png" alt="Category" />
+                </div>
+                <a
+                  class="color-gray-dimgrey font-weight-bold display-block text-align-center"
+                  href="#"
+                  >Men's Clothing</a
+                >
+              </div>
+            </div>
             <div class="category padding-10">
               <div class="photo background-color-white">
                 <div class="images background-color-gray-1 flex-center">
@@ -302,11 +316,7 @@
                   </li>
                 </ul>
               </div>
-              <div
-                class="view-more background-color-white border-none margin-5"
-              >
-                <a class="color-brown-3" href="#">VIEW MORE></a>
-              </div>
+                <a class="view-more background-color-white border-none margin-5 color-brown-3" href="#">VIEW MORE></a>
             </div>
             <ul class="categories flex">
               <li class="padding-5">
@@ -445,9 +455,9 @@
               <div
                 class="content-wrapper background-color-white flex flex-direction-column height-100"
               >
-                <div class="content-title font-size-18 font-weight-bold">
+                <h3 class="content-title font-size-18 font-weight-bold">
                   Most popular lists
-                </div>
+                </h3>
                 <div class="content-body flex-grow-1">
                   <ul
                     class="content-tabs background-color-gray-4 flex justify-content-space-between"
@@ -548,9 +558,9 @@
                 <div
                   class="content-heading flex align-items-center justify-content-space-between"
                 >
-                  <div class="content-title font-size-18 font-weight-bold">
+                  <h3 class="content-title font-size-18 font-weight-bold">
                     HOT DEALS
-                  </div>
+                  </h3>
                   <a
                     href="#"
                     class="content-more font-weight-bold color-gray-2"
@@ -587,9 +597,9 @@
                 <div
                   class="content-heading flex justify-content-space-between align-items-center"
                 >
-                  <div class="content-title font-size-18 font-weight-bold">
+                  <h3 class="content-title font-size-18 font-weight-bold">
                     Brands
-                  </div>
+                  </h3>
                   <a
                     href="#"
                     class="content-more font-weight-bold color-gray-2"
@@ -765,7 +775,7 @@
               <i class="fab fa-blogger-b"></i>
             </div>
             <div class="footer-qrcode flex align-items-center">
-              <img src="images/qr.png" alt="qr code" />
+              <img src="images/qr.png" alt="qr-code" />
               <div class="content font-size-14 font-weight-600">
                 Get a free gift and use
                 <span class="color-pink">20% OFF</span> coupon now
@@ -779,5 +789,15 @@
         </div>
       </div>
     </footer>
+    
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.left = "0px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.left = "-280px";
+  }
+  </script>
   </body>
 </html>
