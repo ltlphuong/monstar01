@@ -425,6 +425,7 @@ nav p {
 }
 .category-flash .categories li .category-wrapper .sold {
   padding-bottom: 3px;
+  margin-top: 20px;
 }
 /* what's hot */
 .what-hot {
@@ -617,6 +618,9 @@ footer .copyright {
   .what-hot .content .content-item {
     flex-basis: 100%;
   }
+  .what-hot .see-more {
+    margin: 50px 0;
+  }
   .footer-icon {
     flex-wrap: wrap;
     width: 100%;
@@ -633,7 +637,7 @@ footer .copyright {
     flex-basis: 100% !important;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
   .container {
     flex-basis: 100%;
   }
