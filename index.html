@@ -19,7 +19,9 @@
     <header
       class="container padding-top-10 flex justify-content-space-between align-items-center"
     >
-      <div class="icon-list cursor-pointer" onclick="openNav()"><i class="fas fa-list"></i></div>
+      <div class="icon-list cursor-pointer" onclick="openNav()">
+        <i class="fas fa-list"></i>
+      </div>
       <a href="#" class="logo flex align-items-flex-end">
         <img src="images/logo.png" alt="logo" class="margin-right-5" />
         <span class="color-gray-2">International Site</span>
@@ -86,7 +88,7 @@
           <i class="far fa-heart cursor-pointer padding-5"></i>
           <span class="font-size-13 cursor-pointer">0</span>
         </div>
-        <div class="infor-item bag flex align-items-center padding-20">
+        <div class="infor-item-bag flex align-items-center padding-20">
           <i class="fas fa-shopping-bag padding-5 cursor-pointer"></i>
           <span
             class="font-size-13 flex-center background-color-black color-white border-radius-18 cursor-pointer"
@@ -96,21 +98,24 @@
         <div class="infor-item">
           <i class="fas fa-headphones-alt padding-20 cursor-pointer"></i>
         </div>
-        <div class="infor-item flag padding-20">
-          <img
-            class="width-20px cursor-pointer"
-            src="images/flagvietnam.png"
-            alt="flag"
-          />
+        <div class="infor-item-flag">
+          <img class="cursor-pointer" src="images/flagvietnam.png" alt="flag" />
         </div>
       </div>
     </header>
     <!-- nav -->
     <nav class="container font-size-14">
       <div
-        class="content flex justify-content-space-between align-items-center" id="mySidenav"
+        class="content flex justify-content-space-between align-items-center"
+        id="mySidenav"
       >
-      <a class="cancel" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a
+          class="cancel"
+          href="javascript:void(0)"
+          class="closebtn"
+          onclick="closeNav()"
+          >&times;</a
+        >
         <ul class="flex">
           <li>
             <a href="#"> Weekly Trend </a>
@@ -246,7 +251,9 @@
         </section>
         <!-- flash-deals -->
         <section class="flash-deals">
-          <div class="flex align-items-center margin-bottom-15px font-size-14">
+          <div
+            class="flash-deals-box flex align-items-center margin-bottom-15px font-size-14"
+          >
             <div class="title font-size-24 font-weight-bold">
               <i class="fas fa-shopping-bag"></i>
               <a class="color-black" href="#">Flash Deals</a>
@@ -316,7 +323,11 @@
                   </li>
                 </ul>
               </div>
-                <a class="view-more background-color-white border-none margin-5 color-brown-3" href="#">VIEW MORE></a>
+              <a
+                class="view-more background-color-white border-none margin-5 color-brown-3"
+                href="#"
+                >VIEW MORE></a
+              >
             </div>
             <ul class="categories flex">
               <li class="padding-5">
@@ -789,15 +800,15 @@
         </div>
       </div>
     </footer>
-    
-<script>
-  function openNav() {
-    document.getElementById("mySidenav").style.left = "0px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.left = "-280px";
-  }
-  </script>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.left = "0px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.left = "-280px";
+      }
+    </script>
   </body>
 </html>
