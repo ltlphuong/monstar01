@@ -19,10 +19,13 @@
     <header
       class="container padding-top-10 flex justify-content-space-between align-items-center"
     >
-      <div class="icon-list cursor-pointer" onclick="openNav()">
+      <div class="list-menu cursor-pointer display-none font-size-24" onclick="openNav()">
         <i class="fas fa-list"></i>
       </div>
-      <a href="#" class="logo flex align-items-flex-end">
+      <a
+        href="#"
+        class="logo flex align-items-flex-end flex-tablet-justify-center width-100-tablet"
+      >
         <img src="images/logo.png" alt="logo" class="margin-right-5" />
         <span class="color-gray-2">International Site</span>
       </a>
@@ -95,11 +98,15 @@
             >0</span
           >
         </div>
-        <div class="infor-item">
+        <div class="padding-15">
           <i class="fas fa-headphones-alt padding-20 cursor-pointer"></i>
         </div>
-        <div class="infor-item-flag">
-          <img class="cursor-pointer" src="images/flagvietnam.png" alt="flag" />
+        <div class="infor-item-flag width-20px">
+          <img
+            class="cursor-pointer width-100"
+            src="images/flagvietnam.png"
+            alt="flag"
+          />
         </div>
       </div>
     </header>
@@ -107,42 +114,38 @@
     <nav class="container font-size-14">
       <div
         class="content flex justify-content-space-between align-items-center"
-        id="mySidenav"
+        id="side-nav"
       >
-        <a
-          class="cancel"
-          href="javascript:void(0)"
-          class="closebtn"
-          onclick="closeNav()"
+        <a class="display-none cancel" href="javascript:void(0)" onclick="closeNav()"
           >&times;</a
         >
         <ul class="flex">
           <li>
-            <a href="#"> Weekly Trend </a>
+            <a href="#" class="color-black"> Weekly Trend </a>
           </li>
           <li>
-            <a href="#"> Men </a>
+            <a href="#" class="color-black"> Men </a>
           </li>
           <li>
-            <a href="#"> Women </a>
+            <a href="#" class="color-black"> Women </a>
           </li>
           <li>
-            <a href="#"> Shoes</a>
+            <a href="#" class="color-black"> Shoes</a>
           </li>
           <li>
-            <a href="#"> Bags </a>
+            <a href="#" class="color-black"> Bags </a>
           </li>
           <li>
-            <a href="#"> Home & Garden </a>
+            <a href="#" class="color-black"> Home & Garden </a>
           </li>
           <li>
-            <a href="#"> Accessories & Beauty </a>
+            <a href="#" class="color-black"> Accessories & Beauty </a>
           </li>
           <li>
-            <a href="#"> Jewelry & Watch </a>
+            <a href="#" class="color-black"> Jewelry & Watch </a>
           </li>
           <li>
-            <a href="#"> Kid & Mom </a>
+            <a href="#" class="color-black"> Kid & Mom </a>
           </li>
         </ul>
         <p class="flex flex-direction-column font-size-12">
@@ -152,19 +155,21 @@
       </div>
     </nav>
     <!-- infos  -->
-    <div class="infos flex justify-content-center font-weight-600 font-size-18">
-      <div class="info-item">
+    <div
+      class="infos flex justify-content-center font-weight-600 font-size-18 flex-tablet-wrap w"
+    >
+      <div class="info-item flex-tablet-justify-center">
         <a class="color-brown-1" href="#">New Friend Exclusive 15% OFF ></a>
       </div>
-      <div class="info-item">
+      <div class="info-item flex-tablet-justify-center">
         <a class="color-brown-1" href="#">Invite Friend - Cash Back ></a>
       </div>
-      <div class="info-item">
+      <div class="info-item flex-tablet-justify-center">
         <a class="color-brown-1" href="#">Cash On Delivery ></a>
       </div>
     </div>
     <!-- banner -->
-    <div class="banner background-size-cover"></div>
+    <div class="banner background-size-cover overflow-hidden"></div>
     <!-- main -->
     <main>
       <div class="container">
@@ -174,10 +179,10 @@
             <i class="far fa-bookmark"></i>
             <a class="color-black" href="#">New Arrivals</a>
           </div>
-          <div class="categories flex">
-            <div class="category padding-10">
+          <div class="categories flex flex-tablet-wrap width-100-tablet">
+            <div class="category padding-10 flex-basis-50-mobile flex-basis-20">
               <div class="photo background-color-white">
-                <div class="images background-color-gray-1 flex-center">
+                <div class="images background-color-gray-1 overflow-hidden border-radius-circle flex-center">
                   <img src="images/category04.png" alt="Category" />
                 </div>
                 <a
@@ -187,9 +192,9 @@
                 >
               </div>
             </div>
-            <div class="category padding-10">
+            <div class="category padding-10 flex-basis-50-mobile flex-basis-20">
               <div class="photo background-color-white">
-                <div class="images background-color-gray-1 flex-center">
+                <div class="images background-color-gray-1 overflow-hidden border-radius-circle flex-center">
                   <img src="images/category04.png" alt="Category" />
                 </div>
                 <a
@@ -199,9 +204,9 @@
                 >
               </div>
             </div>
-            <div class="category padding-10">
+            <div class="category padding-10 flex-basis-50-mobile flex-basis-20">
               <div class="photo background-color-white">
-                <div class="images background-color-gray-1 flex-center">
+                <div class="images background-color-gray-1 overflow-hidden border-radius-circle flex-center">
                   <img src="images/category04.png" alt="Category" />
                 </div>
                 <a
@@ -211,9 +216,9 @@
                 >
               </div>
             </div>
-            <div class="category padding-10">
+            <div class="category padding-10 flex-basis-50-mobile flex-basis-20">
               <div class="photo background-color-white">
-                <div class="images background-color-gray-1 flex-center">
+                <div class="images background-color-gray-1 overflow-hidden border-radius-circle flex-center">
                   <img src="images/category04.png" alt="Category" />
                 </div>
                 <a
@@ -223,9 +228,9 @@
                 >
               </div>
             </div>
-            <div class="category padding-10">
+            <div class="category padding-10 flex-basis-50-mobile flex-basis-20">
               <div class="photo background-color-white text-align-center">
-                <div class="images background-color-gray-1 flex-center">
+                <div class="images background-color-gray-1 overflow-hidden border-radius-circle flex-center">
                   <img src="images/categoryshoes.png" alt="Category" />
                 </div>
                 <a
@@ -235,9 +240,9 @@
                 >
               </div>
             </div>
-            <div class="category padding-10">
+            <div class="category padding-10 flex-basis-50-mobile flex-basis-20">
               <div class="photo background-color-white text-align-center">
-                <div class="images background-color-gray-1 flex-center">
+                <div class="images background-color-gray-1 overflow-hidden border-radius-circle flex-center">
                   <img src="images/category05.png" alt="Category" />
                 </div>
                 <a
@@ -252,27 +257,27 @@
         <!-- flash-deals -->
         <section class="flash-deals">
           <div
-            class="flash-deals-box flex align-items-center margin-bottom-15px font-size-14"
+            class="flash-deals-box flex-mobile-wrap flex align-items-center margin-bottom-15px font-size-14"
           >
             <div class="title font-size-24 font-weight-bold">
               <i class="fas fa-shopping-bag"></i>
               <a class="color-black" href="#">Flash Deals</a>
             </div>
-            <ul class="list flex">
-              <li>
-                <a href="#">All</a>
+            <ul class="list flex flex-mobile-wrap">
+              <li class="background-color-gray-2 border-radius-10">
+                <a class="color-black" href="#">All</a>
               </li>
-              <li>
-                <a href="#">Shoes</a>
+              <li class="background-color-gray-2 border-radius-10">
+                <a class="color-black" href="#">Shoes</a>
               </li>
-              <li>
-                <a href="#">Women</a>
+              <li class="background-color-gray-2 border-radius-10">
+                <a class="color-black" href="#">Women</a>
               </li>
-              <li>
-                <a href="#">Men</a>
+              <li class="background-color-gray-2 border-radius-10">
+                <a class="color-black" href="#">Men</a>
               </li>
-              <li>
-                <a href="#">Bags</a>
+              <li class="background-color-gray-2 border-radius-10">
+                <a class="color-black" href="#">Bags</a>
               </li>
             </ul>
             <div class="arrows flex">
@@ -284,9 +289,11 @@
               </div>
             </div>
           </div>
-          <div class="category-flash padding-20-0 flex background-size-cover">
+          <div
+            class="category-flash padding-20-0 flex background-size-cover flex-mobile-wrap flex-basis-100-mobile"
+          >
             <div
-              class="content padding-0-20 text-align-center flex flex-direction-column justify-content-center"
+              class="content padding-0-20 text-align-center flex flex-direction-column justify-content-center flex-basis-20"
             >
               <div class="content-01 color-black font-size-24 margin-5">
                 FLASH DEALS
@@ -295,7 +302,7 @@
                 <p class="p1 font-size-20">DOWN TO</p>
                 <p class="p2">$0.99</p>
               </div>
-              <div class="time-left color-brown-3">
+              <div class="time-left color-brown-3 font-weight-500">
                 <p>TIME LEFT</p>
                 <ul class="flex-center">
                   <li
@@ -329,8 +336,8 @@
                 >VIEW MORE></a
               >
             </div>
-            <ul class="categories flex">
-              <li class="padding-5">
+            <ul class="categories flex flex-mobile-wrap flex-basis-100-mobile flex-basis-80">
+              <li class="padding-5 flex-basis-50-mobile flex-basis-25">
                 <div
                   class="category-wrapper height-100 text-align-center background-color-white"
                 >
@@ -360,7 +367,7 @@
                   </div>
                 </div>
               </li>
-              <li class="padding-5">
+              <li class="padding-5 flex-basis-50-mobile flex-basis-25">
                 <div
                   class="category-wrapper height-100 text-align-center background-color-white"
                 >
@@ -390,7 +397,7 @@
                   </div>
                 </div>
               </li>
-              <li class="padding-5">
+              <li class="padding-5 flex-basis-50-mobile flex-basis-25">
                 <div
                   class="category-wrapper height-100 text-align-center background-color-white"
                 >
@@ -420,7 +427,7 @@
                   </div>
                 </div>
               </li>
-              <li class="padding-5">
+              <li class="padding-5 flex-basis-50-mobile flex-basis-25">
                 <div
                   class="category-wrapper height-100 text-align-center background-color-white"
                 >
@@ -461,8 +468,10 @@
               <a class="color-black padding-top-20" href="#">What's Hot</a>
             </div>
           </div>
-          <div class="content background-color-gray-3 flex">
-            <div class="content-item">
+          <div
+            class="content background-color-gray-3 flex flex-tablet-wrap width-100-tablet"
+          >
+            <div class="content-item flex-basis-33">
               <div
                 class="content-wrapper background-color-white flex flex-direction-column height-100"
               >
@@ -471,19 +480,35 @@
                 </h3>
                 <div class="content-body flex-grow-1">
                   <ul
-                    class="content-tabs background-color-gray-4 flex justify-content-space-between"
+                    class="content-tabs background-color-gray-4 flex justify-content-space-between font-weight-600 flex-grow-1"
                   >
                     <li class="active">
-                      <a href="#">Women</a>
+                      <a
+                        class="color-gray-4 text-align-center padding-10"
+                        href="#"
+                        >Women</a
+                      >
                     </li>
                     <li>
-                      <a href="#">Bags</a>
+                      <a
+                        class="color-gray-4 text-align-center padding-10"
+                        href="#"
+                        >Bags</a
+                      >
                     </li>
                     <li>
-                      <a href="#">Shoes</a>
+                      <a
+                        class="color-gray-4 text-align-center padding-10"
+                        href="#"
+                        >Shoes</a
+                      >
                     </li>
                     <li>
-                      <a href="#">Men</a>
+                      <a
+                        class="color-gray-4 text-align-center padding-10"
+                        href="#"
+                        >Men</a
+                      >
                     </li>
                   </ul>
                   <ul class="content-products">
@@ -491,7 +516,7 @@
                       <div
                         class="product-wrapper padding-20 flex align-items-center"
                       >
-                        <img src="images/category01.jpg" alt="product" />
+                        <img class="flex-basis-25" src="images/category01.jpg" alt="product" />
                         <div
                           class="product-number font-size-32 color-pink font-weight-bold padding-20"
                         >
@@ -513,7 +538,7 @@
                       <div
                         class="product-wrapper padding-20 flex align-items-center"
                       >
-                        <img src="images/category01.jpg" alt="product" />
+                        <img class="flex-basis-25" src="images/category01.jpg" alt="product" />
                         <div
                           class="product-number font-size-32 color-pink font-weight-bold padding-20"
                         >
@@ -535,7 +560,7 @@
                       <div
                         class="product-wrapper padding-20 flex align-items-center"
                       >
-                        <img src="images/category01.jpg" alt="product" />
+                        <img class="flex-basis-25" src="images/category01.jpg" alt="product" />
                         <div
                           class="product-number font-size-32 color-pink font-weight-bold padding-20"
                         >
@@ -562,7 +587,7 @@
                 </div>
               </div>
             </div>
-            <div class="content-item text-align-center">
+            <div class="content-item text-align-center flex-basis-33">
               <div
                 class="content-wrapper background-color-white height-100 flex flex-direction-column"
               >
@@ -601,7 +626,7 @@
                 <div class="content-bottom text-align-center"></div>
               </div>
             </div>
-            <div class="content-item">
+            <div class="content-item flex-basis-33">
               <div
                 class="content-wrapper background-color-white height-100 flex-direction-column flex"
               >
@@ -626,21 +651,21 @@
                     class="image-shipcod width-100"
                   />
                   <div class="albums flex padding-top-20">
-                    <div>
+                    <div class="flex-basis-33">
                       <img
                         class="width-100"
                         src="images/category03.jpg"
                         alt=""
                       />
                     </div>
-                    <div>
+                    <div class="flex-basis-33">
                       <img
                         class="width-100"
                         src="images/category01.jpg"
                         alt=""
                       />
                     </div>
-                    <div>
+                    <div class="flex-basis-33">
                       <img
                         class="width-100"
                         src="images/category05.jpg"
@@ -668,96 +693,100 @@
     <footer class="background-color-gray-0 padding-top-40">
       <div class="container">
         <div
-          class="footer-icon background-color-white text-align-center flex-center"
+          class="footer-icon background-color-white text-align-center flex-center flex-tablet-wrap width-100-tablet"
         >
-          <div class="icon">
+          <div class="icon flex-mobile-wrap flex-basis-25">
             <span> <i class="fas fa-suitcase-rolling font-size-24"></i> </span>
-            <p class="p1 font-weight-bold font-size-14">High-quality Goods</p>
-            <p class="p2 font-size-13 color-gray-2">
+            <p class="p1 font-weight-bold font-size-14 font-size-iphone5-12">High-quality Goods</p>
+            <p class="p2 font-size-13 color-gray-2 font-size-iphone5-11">
               Enjoy top quality items for less
             </p>
           </div>
-          <div class="icon">
+          <div class="icon flex-mobile-wrap flex-basis-25">
             <span><i class="fas fa-headphones-alt font-size-24"></i></span>
-            <p class="p1 font-weight-bold font-size-14">24/7 Livechat</p>
-            <p class="p2 font-size-13 color-gray-2">
+            <p class="p1 font-weight-bold font-size-14 font-size-iphone5-12">24/7 Livechat</p>
+            <p class="p2 font-size-13 color-gray-2 font-size-iphone5-11">
               Get instant assistance whenever you need it
             </p>
           </div>
-          <div class="icon">
+          <div class="icon flex-mobile-wrap flex-basis-25">
             <span><i class="fas fa-shipping-fast font-size-24"></i></span>
-            <p class="p1 font-weight-bold font-size-14">Express Shipping</p>
-            <p class="p2 font-size-13 color-gray-2">
+            <p class="p1 font-weight-bold font-size-14 font-size-iphone5-12">Express Shipping</p>
+            <p class="p2 font-size-13 color-gray-2 font-size-iphone5-11">
               Fast & reliable delivery options
             </p>
           </div>
-          <div class="icon">
+          <div class="icon flex-mobile-wrap flex-basis-25">
             <span><i class="fas fa-money-check font-size-24"></i></span>
-            <p class="p1 font-weight-bold font-size-14">Secure Payment</p>
-            <p class="p2 font-size-13 color-gray-2">
+            <p class="p1 font-weight-bold font-size-14 font-size-iphone5-12">Secure Payment</p>
+            <p class="p2 font-size-13 color-gray-2 font-size-iphone5-11">
               Multiple safe payment methods
             </p>
           </div>
         </div>
-        <div class="options flex padding-top-40">
-          <div class="options-left flex">
-            <div class="option-left-item">
-              <h3 class="font-size-14 color-gray-4">COMPANY INFORMATION</h3>
+        <div
+          class="options flex padding-top-40 flex-tablet-wrap width-100-tablet font-size-iphone5-11"
+        >
+          <div class="options-left flex flex-basis-66">
+            <div class="option-left-item flex-basis-33 padding-5">
+              <h3 class="font-size-14 color-gray-4 font-size-iphone5-12">COMPANY INFORMATION</h3>
               <ul>
                 <li>
-                  <a href="#">About Newchic</a>
+                  <a class="color-gray-5" href="#">About Newchic</a>
                 </li>
                 <li>
-                  <a href="#">Privacy Policy</a>
+                  <a class="color-gray-5" href="#">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="#">Return Policy</a>
+                  <a class="color-gray-5" href="#">Return Policy</a>
                 </li>
                 <li>
-                  <a href="#">Terms And Conditions</a>
+                  <a class="color-gray-5" href="#">Terms And Conditions</a>
                 </li>
                 <li>
-                  <a href="#">Intellectual Property Claims</a>
+                  <a class="color-gray-5" href="#"
+                    >Intellectual Property Claims</a
+                  >
                 </li>
               </ul>
             </div>
-            <div class="option-left-item">
-              <h3 class="font-size-14 color-gray-4">CUSTOMER SERVICE</h3>
+            <div class="option-left-item flex-basis-33 padding-5">
+              <h3 class="font-size-14 color-gray-4 font-size-iphone5-12">CUSTOMER SERVICE</h3>
               <ul>
                 <li>
-                  <a href="#">Track Order</a>
+                  <a class="color-gray-5" href="#">Track Order</a>
                 </li>
                 <li>
-                  <a href="#">Shipping FAQ</a>
+                  <a class="color-gray-5" href="#">Shipping FAQ</a>
                 </li>
                 <li>
-                  <a href="#">Order FAQ</a>
+                  <a class="color-gray-5" href="#">Order FAQ</a>
                 </li>
                 <li>
-                  <a href="#">Shipping Methods</a>
+                  <a class="color-gray-5" href="#">Shipping Methods</a>
                 </li>
                 <li>
-                  <a href="#">Payment Methods</a>
+                  <a class="color-gray-5" href="#">Payment Methods</a>
                 </li>
               </ul>
             </div>
-            <div class="option-left-item">
-              <h3 class="font-size-14 color-gray-4">COOPERATION</h3>
+            <div class="option-left-item flex-basis-33 padding-5">
+              <h3 class="font-size-14 color-gray-4 font-size-iphone5-12">COOPERATION</h3>
               <ul>
                 <li>
-                  <a href="#">Blogger Program</a>
+                  <a class="color-gray-5" href="#">Blogger Program</a>
                 </li>
                 <li>
-                  <a href="#">Affiliate - Make Money</a>
+                  <a class="color-gray-5" href="#">Affiliate - Make Money</a>
                 </li>
                 <li>
-                  <a href="#">VIP Program</a>
+                  <a class="color-gray-5" href="#">VIP Program</a>
                 </li>
                 <li>
-                  <a href="#">Dropship Program</a>
+                  <a class="color-gray-5" href="#">Dropship Program</a>
                 </li>
                 <li>
-                  <a href="#">Wholesale Program</a>
+                  <a class="color-gray-5" href="#">Wholesale Program</a>
                 </li>
               </ul>
             </div>
@@ -787,9 +816,9 @@
             </div>
             <div class="footer-qrcode flex align-items-center">
               <img src="images/qr.png" alt="qr-code" />
-              <div class="content font-size-14 font-weight-600">
+              <div class="content font-size-14 font-weight-600 font-size-iphone5-12">
                 Get a free gift and use
-                <span class="color-pink">20% OFF</span> coupon now
+                <span class="color-pink font-size-iphone5-12">20% OFF</span> coupon now
               </div>
             </div>
           </div>
@@ -803,11 +832,11 @@
 
     <script>
       function openNav() {
-        document.getElementById("mySidenav").style.left = "0px";
+        document.getElementById("side-nav").style.left = "0px";
       }
 
       function closeNav() {
-        document.getElementById("mySidenav").style.left = "-280px";
+        document.getElementById("side-nav").style.left = "-280px";
       }
     </script>
   </body>
