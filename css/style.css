@@ -261,9 +261,6 @@ p {
 .text-align-center {
   text-align: center;
 }
-.font-weight-normal {
-  font-weight: 400;
-}
 .font-weight-bold {
   font-weight: bold;
 }
@@ -571,6 +568,7 @@ footer .copyright {
   }
   .infos .info-item {
     border: none;
+    margin: 5px 0;
   }
   .new-arrivals .categories .category {
     flex-basis: 33.33%;
